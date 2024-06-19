@@ -1,0 +1,92 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(218, 215, 215);
+}
+#main_card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+    padding: 20px;
+    justify-items: stretch;
+
+}
+
+#main_card > div{
+    background-color: #FFFFFF;
+    border-left: 10px solid #1448d8;
+    text-align: center;
+    min-height: 175px;
+    padding: 20px;
+    border-radius: 20px;
+    display:grid;
+    grid-template-rows: 4fr auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #1d4ed8 ;
+    /*max-width: 200px;*/
+}
+
+
+#main_card > div>div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+
+ button{
+    padding: 15px 15px;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+#showDialog{
+    font-size: 15px;
+    margin-right: 15px;
+    }
+    
+button:hover{
+    transform: scale(1.1);
+    }
+    
+.header{
+    background-color: #1d4ed8; 
+    color: white;
+    text-align: center;
+    vertical-align: top;
+    margin: 0;
+    padding: 20px 0px;
+}
+
+#content{
+    padding: 15px 20px;
+}
+
+#favDialog>div button{
+    background-color: grey;
+    color: black;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    background-color: #e11d48;
+
+}
+
+#favDialog{
+    padding-top: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#favDialog>div{
+    text-align: right;
+}
+
+button#confirm{
+    background-color: green;
+    margin-top: 20px;
+}
+
